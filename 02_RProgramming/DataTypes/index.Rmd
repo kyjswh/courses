@@ -295,6 +295,16 @@ Lists are a special type of vector that can contain elements of different classe
 
 [[4]]
 [1] 1+4i
+
+#Naming list members
+> l <- list(Player=c('Kevin Zhao','Rajon Huang','Paul Chen','Ray Yang'), Position=c('PF','PG','SF','SG'),PPG=c(15.4,13.2,18.3,17.6))
+> l$Player
+[1] "Kevin Zhao"  "Rajon Huang" "Paul Chen"   "Ray Yang"   
+> l$Position
+[1] "PF" "PG" "SF" "SG"
+> l$PPG
+[1] 15.4 13.2 18.3 17.6
+
 ```
 
 ---
